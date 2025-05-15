@@ -1,0 +1,5 @@
+(defun create-hashtable (&rest pairs)
+  (let ((dict (make-hash-table)))
+    (dolist (kv pairs)
+      (setf (gethash (car kv) dict) (cadr kv)))
+    dict))
