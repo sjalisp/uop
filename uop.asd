@@ -5,7 +5,7 @@
   :author "Samantha Atkins <sjatkins@gmail.com"
   :license "All Rights Reserved"
   :serial t
-  :depends-on(#:postmodern #:alexandria)
+  :depends-on(#:postmodern #:alexandria #:sja #:uop-meta)
   :components
   (
    (:file "packages")
